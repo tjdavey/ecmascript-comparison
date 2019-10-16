@@ -13,8 +13,8 @@ npm run es3
 
 # ECMAScript 6/7
 
-The ECMAScript 6/7 script is written in accordance with the ECMA-262 Edition 3. It can be run in Node.js with dyanmic 
-transcompilation with the following command. 
+The ECMAScript 6/7 script is written in accordance with the ECMA-262 Edition 3. It can be run in Node.js 12+ using the 
+following command. 
 
 ```
 npm run es6
