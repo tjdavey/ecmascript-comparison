@@ -1,10 +1,11 @@
 {
   "name": "ecmascript-comparison",
   "version": "1.0.0",
+  "engines" : { "node" : ">=12.0.0" },
   "description": "A comparison of ECMAScript 3 and ECMAScript 6 syntax and features",
   "scripts": {
     "es3": "node es3.js",
-    "es6": "./node_modules/babel-cli/bin/babel-node.js --presets es2015 -- es6.js",
+    "es6": "node es6.js",
     "lint": "./node_modules/eslint/bin/eslint.js es3.js es6.js"
   },
   "repository": {
@@ -18,8 +19,6 @@
   },
   "homepage": "https://github.com/tjdavey/ecmascript-comparison#readme",
   "dependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-preset-es2015": "^6.9.0",
-    "eslint": "^2.13.1"
+    "eslint": "^4.18.2"
   }
 }
